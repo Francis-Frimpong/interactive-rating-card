@@ -1,0 +1,61 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    max-width: 19%;
+    padding: 2em;
+    margin-top: 10em;
+    color: white;
+    border-radius: 2em;
+    background-color: hsl(213, 19%, 18%);
+}
+
+
+.rating-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating{
+    
+    text-align: center;
+    width: 9%;
+    height: 9%;
+    padding: .7em;
+    margin: .8em;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: hsl(216, 12%, 8%);
+    
+}
+
+.rating:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    color: hsl(216, 12%, 8%);
+    
+}
+
+.btn{
+    width: 100%;
+    font-weight:bolder ;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 50px;
+    background-color:hsl(25, 97%, 53%) ;
+    color: hsl(216, 12%, 8%);
+    margin-top: .8em;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+}
