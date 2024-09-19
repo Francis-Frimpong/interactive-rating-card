@@ -17,14 +17,37 @@ body{
     background-color: hsl(213, 19%, 18%);
 }
 
+.thank-you-card{
+    max-width: 19%;
+    padding: 2em;
+    margin-top: 10em;
+    color: white;
+    border-radius: 2em;
+    background-color: hsl(213, 19%, 18%);
+    text-align: center;
+    
+}
+
+.select-stmt{
+    color:hsl(25, 97%, 53%) ;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: hsl(217, 12%, 63%);
+
+
+}
 
 .rating-btn{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .rating{
-    
     text-align: center;
     width: 9%;
     height: 9%;
