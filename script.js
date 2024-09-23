@@ -29,14 +29,17 @@ function submit(){
     if(selectedRating){
        
         document.querySelector('.selected-rating').textContent = selectedRating;
-        
+        selectedRating = null;
         //reset style of the selected button if any
         if(selectedElement){
             selectedElement.style.backgroundColor = '';
             selectedElement.style.color = '';
 
+
         }
 
+    } else {
+        alert('Please select a rating before submitting.')
     }
 }
 
