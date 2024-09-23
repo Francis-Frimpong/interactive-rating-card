@@ -35,6 +35,7 @@ function submit(){
        
         document.querySelector('.selected-rating').textContent = selectedRating;
         
+        //reset style of the selected button if any
         if(selectedElement){
             selectedElement.style.backgroundColor = '';
             selectedElement.style.color = '';
