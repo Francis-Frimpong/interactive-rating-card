@@ -33,7 +33,7 @@ function submit(){
         //reset style of the selected button if any
         if(selectedElement){
             selectedElement.style.backgroundColor = '';
-            var name = 'bj'
+            
             selectedElement.style.color = '';
 
 
