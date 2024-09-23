@@ -15,12 +15,7 @@ function rating(e) {
             selectedElement.style.color = '';
             selectedElement.style.backgroundColor = '';
         }
-        // const allRatings = document.querySelectorAll('.rating');
-
-        // allRatings.forEach(btn => {
-        //     btn.style.color = '';
-        //     btn.style.backgroundColor = '';
-        // })
+       
     }
 
 
