@@ -27,7 +27,8 @@ function rating(e) {
 
 function submit(){
     if(selectedRating){
-       
+       document.querySelector('.card').style.display = 'none';
+       document.querySelector('.thank-you-card').style.display = 'block';
         document.querySelector('.selected-rating').textContent = selectedRating;
         selectedRating = null;
         //reset style of the selected button if any
